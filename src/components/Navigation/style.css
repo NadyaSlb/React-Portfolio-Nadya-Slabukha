@@ -1,0 +1,7 @@
+.activeTab {
+    border-bottom: 2px solid black;
+}
+
+.inactive {
+    color: green
+}
