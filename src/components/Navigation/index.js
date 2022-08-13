@@ -7,7 +7,7 @@ function Navigation({activeTab, changeTab}) {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#about">Nadya</Navbar.Brand>
+        <Navbar.Brand href="#about">Nadya Slabukha</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

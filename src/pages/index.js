@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 import { Container } from 'react-bootstrap';
 function Home() {
 
-    const [activeTab, setActiveTab] = useState("projects")
+    const [activeTab, setActiveTab] = useState("about")
 
     const renderComponent = () => {
         switch (activeTab) {
