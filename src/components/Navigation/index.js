@@ -11,11 +11,18 @@ function Navigation({activeTab, changeTab}) {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link onClick={() => changeTab("about")} href="#about"
+            className={activeTab==="about"? 'activeTab': 'inactive'}
+            >About Me</Nav.Link>
             <Nav.Link onClick={() => changeTab("projects")} href="#projects"
             className={activeTab==="projects"? 'activeTab': 'inactive'}
-            >Projects</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            >Portfolio</Nav.Link>
+             <Nav.Link onClick={() => changeTab("contact")} href="#contact"
+            className={activeTab==="contact"? 'activeTab': 'inactive'}
+            >Contact</Nav.Link>
+               <Nav.Link onClick={() => changeTab("resume")} href="#resume"
+            className={activeTab==="resume"? 'activeTab': 'inactive'}
+            >Resume</Nav.Link>
             {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">

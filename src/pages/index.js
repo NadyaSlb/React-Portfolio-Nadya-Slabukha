@@ -3,6 +3,8 @@ import Header from '../components/Header';
 import Projects from '../components/Projects';
 import About from '../components/About';
 import Footer from '../components/Footer';
+import Contact from '../components/Contact';
+import Resume from '../components/Resume';
 import { Container } from 'react-bootstrap';
 function Home() {
 
@@ -13,10 +15,12 @@ function Home() {
             case "projects":
                 return <Projects />
                 break;
-            // case "contact":
-            //     return <Contact/>
-            //     break;
-
+            case "contact":
+                return <Contact/>
+                break;
+                case "resume":
+                    return <Resume/>
+                    break;
             default:
                 return <About />
                 break;
