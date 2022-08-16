@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio-Nadya-Slabukha/static/css/main.3dc51058.css",
-    "main.js": "/React-Portfolio-Nadya-Slabukha/static/js/main.d1b587a5.js",
+    "main.css": "/React-Portfolio-Nadya-Slabukha/static/css/main.ca0fab6e.css",
+    "main.js": "/React-Portfolio-Nadya-Slabukha/static/js/main.c676b6d2.js",
     "static/js/787.f0962bd6.chunk.js": "/React-Portfolio-Nadya-Slabukha/static/js/787.f0962bd6.chunk.js",
     "static/media/DoINeedAMask.jpg": "/React-Portfolio-Nadya-Slabukha/static/media/DoINeedAMask.a4bdf2c93cde8866642c.jpg",
     "static/media/ocean.jpg": "/React-Portfolio-Nadya-Slabukha/static/media/ocean.d318e2b75065f0dc7d9b.jpg",
@@ -12,12 +12,12 @@
     "static/media/photoofme.jpg": "/React-Portfolio-Nadya-Slabukha/static/media/photoofme.d2c2448ca9da474dff66.jpg",
     "static/media/Resume.docx": "/React-Portfolio-Nadya-Slabukha/static/media/Resume.b5f72de5dc38d1423265.docx",
     "index.html": "/React-Portfolio-Nadya-Slabukha/index.html",
-    "main.3dc51058.css.map": "/React-Portfolio-Nadya-Slabukha/static/css/main.3dc51058.css.map",
-    "main.d1b587a5.js.map": "/React-Portfolio-Nadya-Slabukha/static/js/main.d1b587a5.js.map",
+    "main.ca0fab6e.css.map": "/React-Portfolio-Nadya-Slabukha/static/css/main.ca0fab6e.css.map",
+    "main.c676b6d2.js.map": "/React-Portfolio-Nadya-Slabukha/static/js/main.c676b6d2.js.map",
     "787.f0962bd6.chunk.js.map": "/React-Portfolio-Nadya-Slabukha/static/js/787.f0962bd6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3dc51058.css",
-    "static/js/main.d1b587a5.js"
+    "static/css/main.ca0fab6e.css",
+    "static/js/main.c676b6d2.js"
   ]
 }
