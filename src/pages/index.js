@@ -14,16 +14,12 @@ function Home() {
         switch (activeTab) {
             case "projects":
                 return <Projects />
-                break;
             case "contact":
                 return <Contact/>
-                break;
                 case "resume":
                     return <Resume/>
-                    break;
             default:
                 return <About />
-                break;
         }
     }
 
