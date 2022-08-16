@@ -10,9 +10,9 @@ function Contact() {
   
     const handleSubmit = (e) => {
       e.preventDefault();
-      if (errorMessage) return
-      console.log('Submit Form', formState)
-
+      if (!errorMessage) {
+        console.log('Submit Form', formState);
+      }
     };
   
     const handleChange = (e) => {

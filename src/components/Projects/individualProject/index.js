@@ -15,6 +15,7 @@ import Card from 'react-bootstrap/Card';
 function Project({title,description,src,alt,gitHubLink,deployLink}) {
   return (
 <>
+<br />
    <Card border="light" style={{ width: '100%' }}>
     <Card.Header>
       <h1>{title}</h1>
