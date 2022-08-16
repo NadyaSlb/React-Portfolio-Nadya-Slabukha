@@ -1,12 +1,12 @@
 import React from 'react';
 import Project from './individualProject';
-import {projectOne} from "./data.js"
+import {projectOne,projectTwo} from "./data.js"
 
 function Projects() {
     return (
     <div id="projects">
     <Project {...projectOne}/>
-    {/* <Project {...projectTwo}/> */}
+    <Project {...projectTwo}/>
 
     </div>
     );
