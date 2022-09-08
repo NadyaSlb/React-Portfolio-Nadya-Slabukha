@@ -44,10 +44,10 @@ export const projectFive= {
 }
 
 export const projectSix= {
-    title: "My Future Project",
+    title: "Kross",
     description: "Node, Express, Mangoose, React, GraphQL",
-    src: require('../../images/ocean.jpg'),
+    src: require('../../images/kross.jpg'),
     alt: "screenshot of the app",
-    // gitHubLink: "",
-    // deployLink: ""
+    gitHubLink: "https://github.com/A-Hask/Kross",
+    deployLink: "https://kross-kross.herokuapp.com/"
 }
